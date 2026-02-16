@@ -1,0 +1,55 @@
+
+
+**Aula 02: Manipulação de Diretórios e Ficheiros | pwd, cd, ls, cat, mv, mkdir, rmdir, touch.**
+
+### 1. Navegação e Localização
+
+* **pwd (Print Working Directory):** Exibe o caminho completo do diretório onde você está no momento.
+* *Exemplo:* `pwd` (Retorna algo como `/home/usuario/documentos`).
+
+
+* **cd (Change Directory):** Muda de diretório.
+* *Exemplo:* `cd /var/log` (Entra na pasta de logs).
+* *Exemplo:* `cd ..` (Sobe um nível, volta para a pasta anterior).
+
+
+* **ls (List):** Lista os arquivos e pastas do diretório atual.
+* *Exemplo:* `ls -l` (Lista com detalhes como tamanho e permissões).
+* *Exemplo:* `ls -a` (Mostra arquivos ocultos).
+
+
+
+### 2. Criação e Manipulação
+
+* **mkdir (Make Directory):** Cria uma nova pasta.
+* *Exemplo:* `mkdir redes_projeto`
+
+
+* **rmdir (Remove Directory):** Remove uma pasta (apenas se ela estiver vazia).
+* *Exemplo:* `rmdir redes_projeto`
+
+
+* **touch:** Cria um arquivo vazio ou atualiza a data de modificação de um existente.
+* *Exemplo:* `touch notas_aula.txt`
+
+
+
+### 3. Visualização e Movimentação
+
+* **cat (Concatenate):** Exibe todo o conteúdo de um arquivo diretamente no terminal.
+* *Exemplo:* `cat notas_aula.txt`
+
+
+* **mv (Move):** Move ou **renomeia** arquivos e diretórios.
+* *Exemplo (Mover):* `mv notas_aula.txt /home/usuario/Documentos/`
+* *Exemplo (Renomear):* `mv antigo.txt novo.txt`
+
+
+
+---
+
+**Dica de Prática:**
+Para criar uma pasta, entrar nela e criar um arquivo de uma só vez:
+`mkdir lab01 && cd lab01 && touch teste.txt`
+
+Deseja que eu prepare a **Aula 03** (04/03) no mesmo formato?
